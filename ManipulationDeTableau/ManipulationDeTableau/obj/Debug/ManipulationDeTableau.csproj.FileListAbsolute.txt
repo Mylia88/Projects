@@ -1,0 +1,6 @@
+c:\users\cdi\documents\visual studio 2015\Projects\ManipulationDeTableau\ManipulationDeTableau\bin\Debug\ManipulationDeTableau.exe.config
+c:\users\cdi\documents\visual studio 2015\Projects\ManipulationDeTableau\ManipulationDeTableau\bin\Debug\ManipulationDeTableau.exe
+c:\users\cdi\documents\visual studio 2015\Projects\ManipulationDeTableau\ManipulationDeTableau\bin\Debug\ManipulationDeTableau.pdb
+c:\users\cdi\documents\visual studio 2015\Projects\ManipulationDeTableau\ManipulationDeTableau\obj\Debug\ManipulationDeTableau.csprojResolveAssemblyReference.cache
+c:\users\cdi\documents\visual studio 2015\Projects\ManipulationDeTableau\ManipulationDeTableau\obj\Debug\ManipulationDeTableau.exe
+c:\users\cdi\documents\visual studio 2015\Projects\ManipulationDeTableau\ManipulationDeTableau\obj\Debug\ManipulationDeTableau.pdb

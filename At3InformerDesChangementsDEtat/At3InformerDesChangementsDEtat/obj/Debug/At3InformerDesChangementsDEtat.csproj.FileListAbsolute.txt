@@ -1,0 +1,10 @@
+c:\users\cdi\documents\visual studio 2015\Projects\At3InformerDesChangementsDEtat\At3InformerDesChangementsDEtat\bin\Debug\At3InformerDesChangementsDEtat.exe.config
+c:\users\cdi\documents\visual studio 2015\Projects\At3InformerDesChangementsDEtat\At3InformerDesChangementsDEtat\bin\Debug\At3InformerDesChangementsDEtat.exe
+c:\users\cdi\documents\visual studio 2015\Projects\At3InformerDesChangementsDEtat\At3InformerDesChangementsDEtat\bin\Debug\At3InformerDesChangementsDEtat.pdb
+c:\users\cdi\documents\visual studio 2015\Projects\At3InformerDesChangementsDEtat\At3InformerDesChangementsDEtat\bin\Debug\SalariesDll.dll
+c:\users\cdi\documents\visual studio 2015\Projects\At3InformerDesChangementsDEtat\At3InformerDesChangementsDEtat\bin\Debug\SalariesDll.pdb
+c:\users\cdi\documents\visual studio 2015\Projects\At3InformerDesChangementsDEtat\At3InformerDesChangementsDEtat\obj\Debug\At3InformerDesChangementsDEtat.csprojResolveAssemblyReference.cache
+c:\users\cdi\documents\visual studio 2015\Projects\At3InformerDesChangementsDEtat\At3InformerDesChangementsDEtat\obj\Debug\At3InformerDesChangementsDEtat.Properties.Resources.resources
+c:\users\cdi\documents\visual studio 2015\Projects\At3InformerDesChangementsDEtat\At3InformerDesChangementsDEtat\obj\Debug\At3InformerDesChangementsDEtat.csproj.GenerateResource.Cache
+c:\users\cdi\documents\visual studio 2015\Projects\At3InformerDesChangementsDEtat\At3InformerDesChangementsDEtat\obj\Debug\At3InformerDesChangementsDEtat.exe
+c:\users\cdi\documents\visual studio 2015\Projects\At3InformerDesChangementsDEtat\At3InformerDesChangementsDEtat\obj\Debug\At3InformerDesChangementsDEtat.pdb

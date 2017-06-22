@@ -1,0 +1,8 @@
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\SalariesDll\AppSalaries\bin\Debug\AppSalaries.exe.config
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\SalariesDll\AppSalaries\bin\Debug\AppSalaries.exe
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\SalariesDll\AppSalaries\bin\Debug\AppSalaries.pdb
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\SalariesDll\AppSalaries\bin\Debug\SalariesDll.dll
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\SalariesDll\AppSalaries\bin\Debug\SalariesDll.pdb
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\SalariesDll\AppSalaries\obj\Debug\AppSalaries.csprojResolveAssemblyReference.cache
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\SalariesDll\AppSalaries\obj\Debug\AppSalaries.exe
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\SalariesDll\AppSalaries\obj\Debug\AppSalaries.pdb

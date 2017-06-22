@@ -1,0 +1,9 @@
+c:\users\cdi\documents\visual studio 2015\Projects\LeDamier\LeDamier\bin\Debug\LeDamier.exe.config
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\LeDamier\LeDamier\bin\Debug\LeDamier.exe
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\LeDamier\LeDamier\bin\Debug\LeDamier.pdb
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\LeDamier\LeDamier\obj\Debug\LeDamier.csprojResolveAssemblyReference.cache
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\LeDamier\LeDamier\obj\Debug\LeDamier.FenetreDamier.resources
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\LeDamier\LeDamier\obj\Debug\LeDamier.Properties.Resources.resources
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\LeDamier\LeDamier\obj\Debug\LeDamier.csproj.GenerateResource.Cache
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\LeDamier\LeDamier\obj\Debug\LeDamier.exe
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\LeDamier\LeDamier\obj\Debug\LeDamier.pdb

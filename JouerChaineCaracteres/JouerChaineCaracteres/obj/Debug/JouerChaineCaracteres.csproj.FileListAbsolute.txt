@@ -1,0 +1,9 @@
+c:\users\cdi\documents\visual studio 2015\Projects\JouerChaineCaracteres\JouerChaineCaracteres\bin\Debug\JouerChaineCaracteres.exe.config
+c:\users\cdi\documents\visual studio 2015\Projects\JouerChaineCaracteres\JouerChaineCaracteres\bin\Debug\JouerChaineCaracteres.exe
+c:\users\cdi\documents\visual studio 2015\Projects\JouerChaineCaracteres\JouerChaineCaracteres\bin\Debug\JouerChaineCaracteres.pdb
+c:\users\cdi\documents\visual studio 2015\Projects\JouerChaineCaracteres\JouerChaineCaracteres\obj\Debug\JouerChaineCaracteres.csprojResolveAssemblyReference.cache
+c:\users\cdi\documents\visual studio 2015\Projects\JouerChaineCaracteres\JouerChaineCaracteres\obj\Debug\JouerChaineCaracteres.Form1.resources
+c:\users\cdi\documents\visual studio 2015\Projects\JouerChaineCaracteres\JouerChaineCaracteres\obj\Debug\JouerChaineCaracteres.Properties.Resources.resources
+c:\users\cdi\documents\visual studio 2015\Projects\JouerChaineCaracteres\JouerChaineCaracteres\obj\Debug\JouerChaineCaracteres.csproj.GenerateResource.Cache
+c:\users\cdi\documents\visual studio 2015\Projects\JouerChaineCaracteres\JouerChaineCaracteres\obj\Debug\JouerChaineCaracteres.exe
+c:\users\cdi\documents\visual studio 2015\Projects\JouerChaineCaracteres\JouerChaineCaracteres\obj\Debug\JouerChaineCaracteres.pdb

@@ -1,0 +1,9 @@
+c:\users\cdi\documents\visual studio 2015\Projects\ExoCollectif\ExoCollectif\bin\Debug\ExoCollectif.exe.config
+c:\users\cdi\documents\visual studio 2015\Projects\ExoCollectif\ExoCollectif\bin\Debug\ExoCollectif.exe
+c:\users\cdi\documents\visual studio 2015\Projects\ExoCollectif\ExoCollectif\bin\Debug\ExoCollectif.pdb
+c:\users\cdi\documents\visual studio 2015\Projects\ExoCollectif\ExoCollectif\obj\Debug\ExoCollectif.csprojResolveAssemblyReference.cache
+c:\users\cdi\documents\visual studio 2015\Projects\ExoCollectif\ExoCollectif\obj\Debug\ExoCollectif.Form1.resources
+c:\users\cdi\documents\visual studio 2015\Projects\ExoCollectif\ExoCollectif\obj\Debug\ExoCollectif.Properties.Resources.resources
+c:\users\cdi\documents\visual studio 2015\Projects\ExoCollectif\ExoCollectif\obj\Debug\ExoCollectif.csproj.GenerateResource.Cache
+c:\users\cdi\documents\visual studio 2015\Projects\ExoCollectif\ExoCollectif\obj\Debug\ExoCollectif.exe
+c:\users\cdi\documents\visual studio 2015\Projects\ExoCollectif\ExoCollectif\obj\Debug\ExoCollectif.pdb

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LesExceptions", "LesExceptions\LesExceptions.csproj", "{37FF338C-2060-460C-B2E2-61DF5D11966D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionsPersonnalisées", "ExceptionsPersonnalisées\ExceptionsPersonnalisées.csproj", "{0AB81541-48A3-4C03-81A3-B8B58E40AC9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalariesDll", "SalariesDll\SalariesDll.csproj", "{83C70F8B-5530-47B5-B09F-F1FEDE716C32}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37FF338C-2060-460C-B2E2-61DF5D11966D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37FF338C-2060-460C-B2E2-61DF5D11966D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37FF338C-2060-460C-B2E2-61DF5D11966D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37FF338C-2060-460C-B2E2-61DF5D11966D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AB81541-48A3-4C03-81A3-B8B58E40AC9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AB81541-48A3-4C03-81A3-B8B58E40AC9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AB81541-48A3-4C03-81A3-B8B58E40AC9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AB81541-48A3-4C03-81A3-B8B58E40AC9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83C70F8B-5530-47B5-B09F-F1FEDE716C32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83C70F8B-5530-47B5-B09F-F1FEDE716C32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83C70F8B-5530-47B5-B09F-F1FEDE716C32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83C70F8B-5530-47B5-B09F-F1FEDE716C32}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

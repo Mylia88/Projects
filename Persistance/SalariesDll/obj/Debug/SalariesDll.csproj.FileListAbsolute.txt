@@ -1,0 +1,5 @@
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\Persistance\SalariesDll\bin\Debug\SalariesDll.dll
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\Persistance\SalariesDll\bin\Debug\SalariesDll.pdb
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\Persistance\SalariesDll\obj\Debug\SalariesDll.dll
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\Persistance\SalariesDll\obj\Debug\SalariesDll.pdb
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\Persistance\SalariesDll\obj\Debug\SalariesDll.csprojResolveAssemblyReference.cache

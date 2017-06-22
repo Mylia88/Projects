@@ -1,0 +1,9 @@
+c:\users\cdi\documents\visual studio 2015\Projects\JouerAvecCaractèresChaîne\JouerAvecCaractèresChaîne\bin\Debug\JouerAvecCaractèresChaîne.exe.config
+c:\users\cdi\documents\visual studio 2015\Projects\JouerAvecCaractèresChaîne\JouerAvecCaractèresChaîne\bin\Debug\JouerAvecCaractèresChaîne.exe
+c:\users\cdi\documents\visual studio 2015\Projects\JouerAvecCaractèresChaîne\JouerAvecCaractèresChaîne\bin\Debug\JouerAvecCaractèresChaîne.pdb
+c:\users\cdi\documents\visual studio 2015\Projects\JouerAvecCaractèresChaîne\JouerAvecCaractèresChaîne\obj\Debug\JouerAvecCaractèresChaîne.csprojResolveAssemblyReference.cache
+c:\users\cdi\documents\visual studio 2015\Projects\JouerAvecCaractèresChaîne\JouerAvecCaractèresChaîne\obj\Debug\JouerAvecCaractèresChaîne.Form1.resources
+c:\users\cdi\documents\visual studio 2015\Projects\JouerAvecCaractèresChaîne\JouerAvecCaractèresChaîne\obj\Debug\JouerAvecCaractèresChaîne.Properties.Resources.resources
+c:\users\cdi\documents\visual studio 2015\Projects\JouerAvecCaractèresChaîne\JouerAvecCaractèresChaîne\obj\Debug\JouerAvecCaractèresChaîne.csproj.GenerateResource.Cache
+c:\users\cdi\documents\visual studio 2015\Projects\JouerAvecCaractèresChaîne\JouerAvecCaractèresChaîne\obj\Debug\JouerAvecCaractèresChaîne.exe
+c:\users\cdi\documents\visual studio 2015\Projects\JouerAvecCaractèresChaîne\JouerAvecCaractèresChaîne\obj\Debug\JouerAvecCaractèresChaîne.pdb

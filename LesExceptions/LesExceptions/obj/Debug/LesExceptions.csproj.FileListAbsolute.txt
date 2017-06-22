@@ -1,0 +1,6 @@
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\LesExceptions\LesExceptions\obj\Debug\LesExceptions.csprojResolveAssemblyReference.cache
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\LesExceptions\LesExceptions\bin\Debug\LesExceptions.exe.config
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\LesExceptions\LesExceptions\bin\Debug\LesExceptions.exe
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\LesExceptions\LesExceptions\bin\Debug\LesExceptions.pdb
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\LesExceptions\LesExceptions\obj\Debug\LesExceptions.exe
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\LesExceptions\LesExceptions\obj\Debug\LesExceptions.pdb

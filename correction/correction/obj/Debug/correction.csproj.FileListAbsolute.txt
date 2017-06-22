@@ -1,0 +1,2 @@
+c:\users\cdi\documents\visual studio 2015\Projects\correction\correction\bin\Debug\correction.exe.config
+c:\users\cdi\documents\visual studio 2015\Projects\correction\correction\obj\Debug\correction.csprojResolveAssemblyReference.cache

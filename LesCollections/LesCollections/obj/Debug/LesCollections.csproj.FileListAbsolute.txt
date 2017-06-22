@@ -1,0 +1,6 @@
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\LesCollections\LesCollections\obj\Debug\LesCollections.csprojResolveAssemblyReference.cache
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\LesCollections\LesCollections\bin\Debug\LesCollections.exe.config
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\LesCollections\LesCollections\bin\Debug\LesCollections.exe
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\LesCollections\LesCollections\bin\Debug\LesCollections.pdb
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\LesCollections\LesCollections\obj\Debug\LesCollections.exe
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\LesCollections\LesCollections\obj\Debug\LesCollections.pdb

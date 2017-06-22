@@ -1,0 +1,8 @@
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\Persistance\Persistance\bin\Debug\Persistance.exe.config
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\Persistance\Persistance\bin\Debug\Persistance.exe
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\Persistance\Persistance\bin\Debug\Persistance.pdb
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\Persistance\Persistance\bin\Debug\SalariesDll.dll
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\Persistance\Persistance\bin\Debug\SalariesDll.pdb
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\Persistance\Persistance\obj\Debug\Persistance.csprojResolveAssemblyReference.cache
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\Persistance\Persistance\obj\Debug\Persistance.exe
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\Persistance\Persistance\obj\Debug\Persistance.pdb

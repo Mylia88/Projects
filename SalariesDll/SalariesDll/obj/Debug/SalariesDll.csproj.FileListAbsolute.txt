@@ -1,0 +1,4 @@
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\SalariesDll\SalariesDll\bin\Debug\SalariesDll.dll
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\SalariesDll\SalariesDll\bin\Debug\SalariesDll.pdb
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\SalariesDll\SalariesDll\obj\Debug\SalariesDll.dll
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\SalariesDll\SalariesDll\obj\Debug\SalariesDll.pdb

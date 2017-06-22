@@ -1,0 +1,6 @@
+c:\users\cdi\documents\visual studio 2015\Projects\AT3Exos2\AT3Exos2\bin\Debug\AT3Exos2.exe.config
+c:\users\cdi\documents\visual studio 2015\Projects\AT3Exos2\AT3Exos2\bin\Debug\AT3Exos2.exe
+c:\users\cdi\documents\visual studio 2015\Projects\AT3Exos2\AT3Exos2\bin\Debug\AT3Exos2.pdb
+c:\users\cdi\documents\visual studio 2015\Projects\AT3Exos2\AT3Exos2\obj\Debug\AT3Exos2.csprojResolveAssemblyReference.cache
+c:\users\cdi\documents\visual studio 2015\Projects\AT3Exos2\AT3Exos2\obj\Debug\AT3Exos2.exe
+c:\users\cdi\documents\visual studio 2015\Projects\AT3Exos2\AT3Exos2\obj\Debug\AT3Exos2.pdb

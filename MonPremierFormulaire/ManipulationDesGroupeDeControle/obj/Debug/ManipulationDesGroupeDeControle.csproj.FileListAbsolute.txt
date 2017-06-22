@@ -1,0 +1,9 @@
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\MonPremierFormulaire\ManipulationDesGroupeDeControle\bin\Debug\ManipulationDesGroupeDeControle.exe.config
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\MonPremierFormulaire\ManipulationDesGroupeDeControle\bin\Debug\ManipulationDesGroupeDeControle.exe
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\MonPremierFormulaire\ManipulationDesGroupeDeControle\bin\Debug\ManipulationDesGroupeDeControle.pdb
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\MonPremierFormulaire\ManipulationDesGroupeDeControle\obj\Debug\ManipulationDesGroupeDeControle.Form1.resources
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\MonPremierFormulaire\ManipulationDesGroupeDeControle\obj\Debug\ManipulationDesGroupeDeControle.Properties.Resources.resources
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\MonPremierFormulaire\ManipulationDesGroupeDeControle\obj\Debug\ManipulationDesGroupeDeControle.csproj.GenerateResource.Cache
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\MonPremierFormulaire\ManipulationDesGroupeDeControle\obj\Debug\ManipulationDesGroupeDeControle.exe
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\MonPremierFormulaire\ManipulationDesGroupeDeControle\obj\Debug\ManipulationDesGroupeDeControle.pdb
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\MonPremierFormulaire\ManipulationDesGroupeDeControle\obj\Debug\ManipulationDesGroupeDeControle.csprojResolveAssemblyReference.cache
