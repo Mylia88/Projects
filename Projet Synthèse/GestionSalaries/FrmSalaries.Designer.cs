@@ -298,6 +298,7 @@
             this.Name = "cbSalaries";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "FrmSalaries";
+            this.Load += new System.EventHandler(this.FrmSalaries_Load);
             this.gbDetailSalarié.ResumeLayout(false);
             this.gbDetailSalarié.PerformLayout();
             this.pnlBoutons.ResumeLayout(false);

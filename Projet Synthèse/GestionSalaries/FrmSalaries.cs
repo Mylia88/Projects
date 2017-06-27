@@ -72,7 +72,7 @@ namespace GestionSalaraies
             }
         }
 
-        private void FrmUtilisateurs_Load(object sender, EventArgs e)
+        private void FrmSalaries_Load(object sender, EventArgs e)
         {
             ChargerSalaries();
             GestionnaireContextes(Contextes.Initial);
