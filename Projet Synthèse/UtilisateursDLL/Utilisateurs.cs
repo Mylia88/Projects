@@ -22,7 +22,7 @@ namespace SalariesDll
         /// </summary>
         public Utilisateurs() : base() { }
         /// <summary>
-        /// Extraire un utilisateur par son matricule
+        /// Extraire un utilisateur par son identifiant
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
@@ -49,6 +49,12 @@ namespace SalariesDll
             }
             return liste;
         }
+
+        public Utilisateur UtilisateurByMatricule(object id)
+        {
+            throw new NotImplementedException();
+        }
+
         /// <summary>
         /// Ajout d'un nouvel utilisateur 
         /// Se substitue à la méthode de base

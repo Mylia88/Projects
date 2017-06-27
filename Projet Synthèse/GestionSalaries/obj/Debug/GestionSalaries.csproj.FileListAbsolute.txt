@@ -46,4 +46,4 @@ C:\Users\CDI\Documents\Visual Studio 2015\Projects\Projet Synthèse\GestionSalar
 C:\Users\CDI\Documents\Visual Studio 2015\Projects\Projet Synthèse\GestionSalaries\obj\Debug\GestionSalaries.csproj.GenerateResource.Cache
 C:\Users\CDI\Documents\Visual Studio 2015\Projects\Projet Synthèse\GestionSalaries\obj\Debug\GestionSalaraies.exe
 C:\Users\CDI\Documents\Visual Studio 2015\Projects\Projet Synthèse\GestionSalaries\obj\Debug\GestionSalaraies.pdb
-C:\Users\CDI\Documents\Visual Studio 2015\Projects\Projet Synthèse\GestionSalaries\obj\Debug\GestionSalaraies.FrmSalaries.resources
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\Projet Synthèse\GestionSalaries\obj\Debug\GestionSalaraies.cbSalaries.resources

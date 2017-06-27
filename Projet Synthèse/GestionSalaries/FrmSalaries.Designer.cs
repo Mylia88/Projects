@@ -1,6 +1,6 @@
 ﻿namespace GestionSalaraies
 {
-    partial class FrmSalaries
+    partial class cbSalaries
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,15 @@
         private void InitializeComponent()
         {
             this.gbDetailSalarié = new System.Windows.Forms.GroupBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.txtPrenomS = new System.Windows.Forms.TextBox();
+            this.chkCompteBloque = new System.Windows.Forms.CheckBox();
             this.pnlBoutons = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.btnValider = new System.Windows.Forms.Button();
             this.btnAnnuler = new System.Windows.Forms.Button();
             this.btnModifier = new System.Windows.Forms.Button();
@@ -42,13 +50,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.cbSalarié = new System.Windows.Forms.ComboBox();
             this.btnNouveauS = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.chkCompteBloque = new System.Windows.Forms.CheckBox();
             this.gbDetailSalarié.SuspendLayout();
             this.pnlBoutons.SuspendLayout();
             this.SuspendLayout();
@@ -60,7 +61,7 @@
             this.gbDetailSalarié.Controls.Add(this.textBox3);
             this.gbDetailSalarié.Controls.Add(this.textBox2);
             this.gbDetailSalarié.Controls.Add(this.label6);
-            this.gbDetailSalarié.Controls.Add(this.textBox1);
+            this.gbDetailSalarié.Controls.Add(this.txtPrenomS);
             this.gbDetailSalarié.Controls.Add(this.chkCompteBloque);
             this.gbDetailSalarié.Controls.Add(this.pnlBoutons);
             this.gbDetailSalarié.Controls.Add(this.txtNomS);
@@ -78,8 +79,77 @@
             this.gbDetailSalarié.TabStop = false;
             this.gbDetailSalarié.Text = "Détails Salarié";
             // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(14, 144);
+            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(54, 13);
+            this.label8.TabIndex = 10;
+            this.label8.Text = "Taux CS :";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(14, 120);
+            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(67, 13);
+            this.label7.TabIndex = 9;
+            this.label7.Text = "Salaire Brut :";
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(129, 141);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.PasswordChar = '*';
+            this.textBox3.Size = new System.Drawing.Size(132, 20);
+            this.textBox3.TabIndex = 8;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(129, 117);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.PasswordChar = '*';
+            this.textBox2.Size = new System.Drawing.Size(132, 20);
+            this.textBox2.TabIndex = 7;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(14, 72);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(49, 13);
+            this.label6.TabIndex = 6;
+            this.label6.Text = "Prenom :";
+            // 
+            // txtPrenomS
+            // 
+            this.txtPrenomS.Location = new System.Drawing.Point(129, 69);
+            this.txtPrenomS.Margin = new System.Windows.Forms.Padding(2);
+            this.txtPrenomS.Name = "txtPrenomS";
+            this.txtPrenomS.PasswordChar = '*';
+            this.txtPrenomS.Size = new System.Drawing.Size(132, 20);
+            this.txtPrenomS.TabIndex = 5;
+            // 
+            // chkCompteBloque
+            // 
+            this.chkCompteBloque.AutoSize = true;
+            this.chkCompteBloque.Location = new System.Drawing.Point(129, 187);
+            this.chkCompteBloque.Margin = new System.Windows.Forms.Padding(2);
+            this.chkCompteBloque.Name = "chkCompteBloque";
+            this.chkCompteBloque.Size = new System.Drawing.Size(97, 17);
+            this.chkCompteBloque.TabIndex = 4;
+            this.chkCompteBloque.Text = "Compte bloqué";
+            this.chkCompteBloque.UseVisualStyleBackColor = true;
+            // 
             // pnlBoutons
             // 
+            this.pnlBoutons.Controls.Add(this.button1);
             this.pnlBoutons.Controls.Add(this.btnValider);
             this.pnlBoutons.Controls.Add(this.btnAnnuler);
             this.pnlBoutons.Controls.Add(this.btnModifier);
@@ -88,6 +158,15 @@
             this.pnlBoutons.Name = "pnlBoutons";
             this.pnlBoutons.Size = new System.Drawing.Size(325, 60);
             this.pnlBoutons.TabIndex = 3;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(235, 17);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "Supprimer";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // btnValider
             // 
@@ -101,6 +180,7 @@
             // 
             // btnAnnuler
             // 
+            this.btnAnnuler.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnAnnuler.Location = new System.Drawing.Point(92, 17);
             this.btnAnnuler.Margin = new System.Windows.Forms.Padding(2);
             this.btnAnnuler.Name = "btnAnnuler";
@@ -203,86 +283,19 @@
             this.btnNouveauS.Text = "Nouveau";
             this.btnNouveauS.UseVisualStyleBackColor = true;
             // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(129, 69);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.PasswordChar = '*';
-            this.textBox1.Size = new System.Drawing.Size(132, 20);
-            this.textBox1.TabIndex = 5;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(14, 72);
-            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(49, 13);
-            this.label6.TabIndex = 6;
-            this.label6.Text = "Prenom :";
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(129, 117);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.PasswordChar = '*';
-            this.textBox2.Size = new System.Drawing.Size(132, 20);
-            this.textBox2.TabIndex = 7;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(129, 141);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.PasswordChar = '*';
-            this.textBox3.Size = new System.Drawing.Size(132, 20);
-            this.textBox3.TabIndex = 8;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(14, 120);
-            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(67, 13);
-            this.label7.TabIndex = 9;
-            this.label7.Text = "Salaire Brut :";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(14, 144);
-            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(54, 13);
-            this.label8.TabIndex = 10;
-            this.label8.Text = "Taux CS :";
-            // 
-            // chkCompteBloque
-            // 
-            this.chkCompteBloque.AutoSize = true;
-            this.chkCompteBloque.Location = new System.Drawing.Point(138, 211);
-            this.chkCompteBloque.Margin = new System.Windows.Forms.Padding(2);
-            this.chkCompteBloque.Name = "chkCompteBloque";
-            this.chkCompteBloque.Size = new System.Drawing.Size(97, 17);
-            this.chkCompteBloque.TabIndex = 4;
-            this.chkCompteBloque.Text = "Compte bloqué";
-            this.chkCompteBloque.UseVisualStyleBackColor = true;
-            // 
-            // FrmSalaries
+            // cbSalaries
             // 
             this.AcceptButton = this.btnValider;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.CancelButton = this.btnAnnuler;
             this.ClientSize = new System.Drawing.Size(523, 445);
             this.Controls.Add(this.gbDetailSalarié);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.cbSalarié);
             this.Controls.Add(this.btnNouveauS);
-            this.Name = "FrmSalaries";
+            this.Name = "cbSalaries";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "FrmSalaries";
             this.gbDetailSalarié.ResumeLayout(false);
@@ -314,7 +327,8 @@
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtPrenomS;
         private System.Windows.Forms.CheckBox chkCompteBloque;
+        private System.Windows.Forms.Button button1;
     }
 }

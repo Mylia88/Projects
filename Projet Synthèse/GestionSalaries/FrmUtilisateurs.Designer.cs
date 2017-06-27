@@ -57,18 +57,19 @@
             // btnNouveau
             // 
             this.btnNouveau.Location = new System.Drawing.Point(317, 49);
-            this.btnNouveau.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnNouveau.Margin = new System.Windows.Forms.Padding(2);
             this.btnNouveau.Name = "btnNouveau";
             this.btnNouveau.Size = new System.Drawing.Size(74, 20);
             this.btnNouveau.TabIndex = 0;
             this.btnNouveau.Text = "Nouveau";
             this.btnNouveau.UseVisualStyleBackColor = true;
+            this.btnNouveau.Click += new System.EventHandler(this.btnNouveau_Click);
             // 
             // cbUtilisateurs
             // 
             this.cbUtilisateurs.FormattingEnabled = true;
             this.cbUtilisateurs.Location = new System.Drawing.Point(141, 49);
-            this.cbUtilisateurs.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbUtilisateurs.Margin = new System.Windows.Forms.Padding(2);
             this.cbUtilisateurs.Name = "cbUtilisateurs";
             this.cbUtilisateurs.Size = new System.Drawing.Size(166, 21);
             this.cbUtilisateurs.TabIndex = 1;
@@ -97,9 +98,9 @@
             this.gbDetailUtilisateur.Controls.Add(this.txtIdentifiant);
             this.gbDetailUtilisateur.Controls.Add(this.label2);
             this.gbDetailUtilisateur.Location = new System.Drawing.Point(32, 119);
-            this.gbDetailUtilisateur.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.gbDetailUtilisateur.Margin = new System.Windows.Forms.Padding(2);
             this.gbDetailUtilisateur.Name = "gbDetailUtilisateur";
-            this.gbDetailUtilisateur.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.gbDetailUtilisateur.Padding = new System.Windows.Forms.Padding(2);
             this.gbDetailUtilisateur.Size = new System.Drawing.Size(359, 312);
             this.gbDetailUtilisateur.TabIndex = 3;
             this.gbDetailUtilisateur.TabStop = false;
@@ -109,7 +110,7 @@
             // 
             this.chkCompteBloque.AutoSize = true;
             this.chkCompteBloque.Location = new System.Drawing.Point(89, 132);
-            this.chkCompteBloque.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.chkCompteBloque.Margin = new System.Windows.Forms.Padding(2);
             this.chkCompteBloque.Name = "chkCompteBloque";
             this.chkCompteBloque.Size = new System.Drawing.Size(97, 17);
             this.chkCompteBloque.TabIndex = 4;
@@ -122,7 +123,7 @@
             this.pnlBoutons.Controls.Add(this.btnAnnuler);
             this.pnlBoutons.Controls.Add(this.btnModifier);
             this.pnlBoutons.Location = new System.Drawing.Point(16, 232);
-            this.pnlBoutons.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pnlBoutons.Margin = new System.Windows.Forms.Padding(2);
             this.pnlBoutons.Name = "pnlBoutons";
             this.pnlBoutons.Size = new System.Drawing.Size(325, 60);
             this.pnlBoutons.TabIndex = 3;
@@ -130,17 +131,19 @@
             // btnValider
             // 
             this.btnValider.Location = new System.Drawing.Point(163, 17);
-            this.btnValider.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnValider.Margin = new System.Windows.Forms.Padding(2);
             this.btnValider.Name = "btnValider";
             this.btnValider.Size = new System.Drawing.Size(56, 23);
             this.btnValider.TabIndex = 0;
             this.btnValider.Text = "Valider";
             this.btnValider.UseVisualStyleBackColor = true;
+            this.btnValider.Click += new System.EventHandler(this.btnValider_Click);
             // 
             // btnAnnuler
             // 
+            this.btnAnnuler.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnAnnuler.Location = new System.Drawing.Point(92, 17);
-            this.btnAnnuler.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnAnnuler.Margin = new System.Windows.Forms.Padding(2);
             this.btnAnnuler.Name = "btnAnnuler";
             this.btnAnnuler.Size = new System.Drawing.Size(56, 23);
             this.btnAnnuler.TabIndex = 0;
@@ -151,7 +154,7 @@
             // btnModifier
             // 
             this.btnModifier.Location = new System.Drawing.Point(17, 17);
-            this.btnModifier.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnModifier.Margin = new System.Windows.Forms.Padding(2);
             this.btnModifier.Name = "btnModifier";
             this.btnModifier.Size = new System.Drawing.Size(56, 23);
             this.btnModifier.TabIndex = 0;
@@ -163,7 +166,7 @@
             // 
             this.cbRoles.FormattingEnabled = true;
             this.cbRoles.Location = new System.Drawing.Point(91, 179);
-            this.cbRoles.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbRoles.Margin = new System.Windows.Forms.Padding(2);
             this.cbRoles.Name = "cbRoles";
             this.cbRoles.Size = new System.Drawing.Size(130, 21);
             this.cbRoles.TabIndex = 2;
@@ -171,7 +174,7 @@
             // txtNom
             // 
             this.txtNom.Location = new System.Drawing.Point(88, 98);
-            this.txtNom.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtNom.Margin = new System.Windows.Forms.Padding(2);
             this.txtNom.Name = "txtNom";
             this.txtNom.Size = new System.Drawing.Size(132, 20);
             this.txtNom.TabIndex = 1;
@@ -179,7 +182,7 @@
             // txtMotDePasse
             // 
             this.txtMotDePasse.Location = new System.Drawing.Point(88, 57);
-            this.txtMotDePasse.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtMotDePasse.Margin = new System.Windows.Forms.Padding(2);
             this.txtMotDePasse.Name = "txtMotDePasse";
             this.txtMotDePasse.PasswordChar = '*';
             this.txtMotDePasse.Size = new System.Drawing.Size(132, 20);
@@ -218,7 +221,7 @@
             // txtIdentifiant
             // 
             this.txtIdentifiant.Location = new System.Drawing.Point(89, 20);
-            this.txtIdentifiant.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtIdentifiant.Margin = new System.Windows.Forms.Padding(2);
             this.txtIdentifiant.Name = "txtIdentifiant";
             this.txtIdentifiant.Size = new System.Drawing.Size(132, 20);
             this.txtIdentifiant.TabIndex = 1;
@@ -242,13 +245,14 @@
             this.AcceptButton = this.btnValider;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.CancelButton = this.btnAnnuler;
             this.ClientSize = new System.Drawing.Size(575, 457);
             this.Controls.Add(this.gbDetailUtilisateur);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.cbUtilisateurs);
             this.Controls.Add(this.btnNouveau);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FrmUtilisateurs";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Gestion des utilisateurs";

@@ -350,7 +350,7 @@
         </member>
         <member name="M:SalariesDll.Utilisateur.#ctor(System.String,System.String,System.String)">
             <summary>
-            Création d'initialisation d'un uutilisateur 
+            Création d'initialisation d'un utilisateur 
             </summary>
             <param name="identifiant">Identifiant</param>
             <param name="nom">Nom</param>
@@ -374,7 +374,7 @@
         </member>
         <member name="M:SalariesDll.Utilisateurs.UtilisateurByMatricule(System.String)">
             <summary>
-            Extraire un utilisateur par son matricule
+            Extraire un utilisateur par son identifiant
             </summary>
             <param name="id"></param>
             <returns></returns>

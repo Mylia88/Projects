@@ -175,7 +175,7 @@ namespace SalariesDll
             this.Role = role;
         }
         /// <summary>
-        /// Création d'initialisation d'un uutilisateur 
+        /// Création d'initialisation d'un utilisateur 
         /// </summary>
         /// <param name="identifiant">Identifiant</param>
         /// <param name="nom">Nom</param>
@@ -200,21 +200,43 @@ namespace SalariesDll
             
 
         }
-
+ #endregion
         public ConnectionResult Connecter(string motDePasse)
         {
-           
-            if (this.MotDePasse == motDePasse)
-            {
-                this.NombreEchecsConsecutifs = 0;
-                this._dateDerniereConnexion = DateTime.Now;
-                return ConnectionResult.Connecté;
-            }
-            this._nombreEchecsConsecutifs++;
-            return (this.NombreEchecsConsecutifs > 3) ? ConnectionResult.CompteBloqué : ConnectionResult.MotPasseInvalide;
+            
 
+            if (MotDePasse != motDePasse)
+            {
+                NombreEchecsConsecutifs++;
+                this._dateDerniereConnexion = DateTime.Now;
+                if (this.NombreEchecsConsecutifs >= 3)
+                {
+                    CompteBloque = true;
+                    return ConnectionResult.CompteBloqué;
+                }
+                else
+                {
+                    return ConnectionResult.MotPasseInvalide;
+                }                                 
+            }
+            
+            else
+            {
+                if (CompteBloque == true)
+                {
+                    return ConnectionResult.CompteBloqué;
+                }
+                else
+                {
+                    this.NombreEchecsConsecutifs = 0;
+                    this._dateDerniereConnexion = DateTime.Now;
+                    return ConnectionResult.Connecté;
+                }
+                
+            }
+                       
         }
-        #endregion
+       
 
     }
 

@@ -26,7 +26,7 @@ namespace GestionSalaraies
 
         private void Click_GS(object sender, EventArgs e)
         {
-            FrmSalaries frmSalaries = new FrmSalaries();
+            cbSalaries frmSalaries = new cbSalaries();
             frmSalaries.MdiParent = this;
             frmSalaries.Show();
         }
@@ -34,7 +34,25 @@ namespace GestionSalaraies
         private void FenetreMere_Load(object sender, EventArgs e)
         {
             DialConnexion connexion = new DialConnexion();
-            DialogResult resultat = connexion.ShowDialog();
+            //DialogResult resultat = connexion.ShowDialog();
+            DialogResult resultat = DialogResult.OK;
+
+            switch(resultat)
+            {
+                case DialogResult.Cancel:
+                    {
+                        Close();
+                    }
+                    break;
+
+                case DialogResult.OK:
+                    {
+                        MessageBox.Show("Vous êtes connecté.", "Connection",
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Information);
+                    }
+                    break;
+            }
         }
     }
 }

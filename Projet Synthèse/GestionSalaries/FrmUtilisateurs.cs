@@ -19,8 +19,9 @@ namespace GestionSalaraies
         Utilisateurs utilisateurs;
         Roles roles;
         Utilisateur utilisateur;
-      
-        
+        bool isAjout;
+
+
 
         enum Contextes
         {
@@ -30,23 +31,22 @@ namespace GestionSalaraies
             ModificationAnnuler = 3,
             ModificationValider = 4,
             AjoutInitial = 5,
-            AjoutValider = 6
+            AjoutValider = 6,
+            Nouveau = 7
 
         }
         public FrmUtilisateurs()
         {
             InitializeComponent();
-           
         }
 
         void GestionnaireContextes(Contextes contexte)
-            
+
         {
-            
             switch (contexte)
             {
                 case Contextes.Initial:
-                    cbUtilisateurs.Enabled = (cbUtilisateurs.Items.Count>0);
+                    cbUtilisateurs.Enabled = (cbUtilisateurs.Items.Count > 0);
                     btnNouveau.Enabled = true;
                     gbDetailUtilisateur.Visible = false;
                     break;
@@ -64,6 +64,7 @@ namespace GestionSalaraies
                     cbRoles.Enabled = false;
                     break;
                 case Contextes.ModificationInitiale:
+                    isAjout = false;
                     btnNouveau.Enabled = false;
                     gbDetailUtilisateur.Visible = true;
                     cbUtilisateurs.Enabled = false;
@@ -82,9 +83,24 @@ namespace GestionSalaraies
                     break;
                 case Contextes.ModificationValider:
                     break;
-                case Contextes.AjoutInitial:
+                case Contextes.AjoutInitial:                   
                     break;
                 case Contextes.AjoutValider:
+                    break;
+                case Contextes.Nouveau:
+                    isAjout = true;
+                    btnNouveau.Enabled = false;
+                    gbDetailUtilisateur.Visible = true;
+                    cbUtilisateurs.Enabled = false;
+                    pnlBoutons.Enabled = true;
+                    btnModifier.Enabled = false;
+                    btnAnnuler.Enabled = true;
+                    btnValider.Enabled = true;
+                    txtIdentifiant.ReadOnly = false;
+                    txtMotDePasse.ReadOnly = false;
+                    chkCompteBloque.Enabled = true;
+                    txtNom.ReadOnly = false;
+                    cbRoles.Enabled = true;
                     break;
                 default:
                     break;
@@ -116,12 +132,13 @@ namespace GestionSalaraies
                 {
                     utilisateur.Identifiant = txtIdentifiant.Text;
                     utilisateur.MotDePasse = txtMotDePasse.Text;
-                    txtNom.Text = utilisateur.Nom;
-                    chkCompteBloque.Checked = utilisateur.CompteBloque;
-                    utilisateur.Identifiant = txtIdentifiant.Text;
-                    utilisateur.MotDePasse = txtMotDePasse.Text;
-                    txtNom.Text = utilisateur.Nom;
-                    chkCompteBloque.Checked = utilisateur.CompteBloque;
+                    utilisateur.Nom = txtNom.Text;
+                    utilisateur.CompteBloque = chkCompteBloque.Checked;
+                    if (chkCompteBloque.Checked == true)
+                    {
+                        utilisateur.CompteBloque = true;
+                    }
+                    else utilisateur.CompteBloque = false;             
                 }
                 catch (Exception)
                 {
@@ -158,7 +175,7 @@ namespace GestionSalaraies
         {
             roles = new Roles();
             ISauvegarde serialiseur = MonApplication.DispositifSauvegarde;
-            roles.Load(serialiseur,Properties.Settings.Default.AppData);
+            roles.Load(serialiseur, Properties.Settings.Default.AppData);
 
             foreach (Role item in roles)
             {
@@ -170,7 +187,7 @@ namespace GestionSalaraies
         {
             utilisateurs = new Utilisateurs();
             ISauvegarde serialiseur = MonApplication.DispositifSauvegarde;
-            utilisateurs.Load(serialiseur,Properties.Settings.Default.AppData);
+            utilisateurs.Load(serialiseur, Properties.Settings.Default.AppData);
             foreach (Utilisateur item in utilisateurs)
             {
                 cbUtilisateurs.Items.Add(item.Identifiant);
@@ -200,5 +217,46 @@ namespace GestionSalaraies
         {
             GestionnaireContextes(Contextes.ModificationAnnuler);
         }
+
+        private void btnNouveau_Click(object sender, EventArgs e)
+        {
+            GestionnaireContextes(Contextes.Nouveau);
+        }
+
+        private void btnValider_Click(object sender, EventArgs e)
+        {
+            if (isAjout) 
+            {
+                GestionnaireContextes(Contextes.Nouveau);
+                Utilisateur utilisateur = new Utilisateur()
+                {
+                    Identifiant = txtIdentifiant.Text,
+                    MotDePasse = txtMotDePasse.Text,
+                    Nom = txtNom.Text,
+                    CompteBloque = false
+                };
+
+                if (cbRoles.SelectedItem != null)
+                {
+
+                    utilisateur.Role = roles.RechercherRole(cbRoles.SelectedItem.ToString());
+                }
+                utilisateurs.Add(utilisateur);
+                ISauvegarde sauvegarde = new SauvegardeXML();
+                utilisateurs.Save(sauvegarde, Settings.Default.AppData);
+            }
+            else
+            {
+                ModifierUtilisateur();
+                ISauvegarde sauvegarde = new SauvegardeXML();
+                utilisateurs.Save(sauvegarde, Settings.Default.AppData);
+            }
+
+            
+
+            GestionnaireContextes(Contextes.Initial);
+        }
+
+
     }
 }

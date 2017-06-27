@@ -100,6 +100,7 @@
             this.btnConnexion.TabIndex = 1;
             this.btnConnexion.Text = "&Connecter";
             this.btnConnexion.UseVisualStyleBackColor = true;
+            this.btnConnexion.Click += new System.EventHandler(this.btnConnexion_Click);
             // 
             // btnQuitter
             // 
